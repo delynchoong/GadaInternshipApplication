@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@font-face
+{
+	font-family:"Eraser";
+	src:url(fonts/EraserRegular.ttf); /*if do this font will available on all comps, either ttf or otf format only!*/
+	font-family: "Bleeding cowboys";
+	src:url(Bleeding_Cowboys.ttf);
+}
+
+#header, #sidebar,#footer
+{
+	border-radius: 10px;
+	background-image:url(images/galaxy.jpg);
+}
+#footer
+{
+	font-family:"Bleeding cowboys";
+}
+
+#wrapper 
+{
+	min-height:100%;
+	position:relative;
+}
+#header h1
+{
+	font-family:"Eraser";	
+	
+}
+
+body
+{	
+	font-family:"Eraser";
+	margin:0;
+	padding:0;
+	background-image:url(images/ferris.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	/*so wallpaper does not move*/
+	background-size:cover;
+
+}	
+#header	
+{
+	
+	margin:auto;  /*to place the div in the center of browser*/
+	width:70%;
+	text-align:center;
+	color:#fff;				/*foreground color*/
+	margin-bottom: 2%;
+	padding:10px;
+}
+#main1
+{
+	margin:auto;
+	position:absolute;
+	color:#000;
+	margin-top:10%;
+	margin-left:350px;  
+	margin-bottom:5%;
+	width:850px;
+	padding:20px;
+	text-align:center;
+	border-radius: 10px;
+	background-color:#fff;
+	background-repeat:repeat-y;
+	top:10px;
+
+}
+#main
+{
+	position:absolute;
+	color:#fff;
+	margin-top:10%;
+	margin-left:350px;  
+	margin-bottom:5%;
+	width:850px;
+	padding:20px;
+	text-align:center;
+	border-radius: 10px;
+	background-image:url(images/blue.png);
+	background-repeat:repeat-y;
+	top:10px;
+}
+	
+#sidebar
+{
+	border-radius: 10px;
+	margin-left:2%;
+	margin-top:2%;
+	margin-bottom:2%;
+	padding:10px;
+   	font-family:"Bleeding cowboys";
+	font-size:larger;
+	width:250px;
+	height:50%;
+	color: #FFF;
+}
+			
+.image 
+{ 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 
+{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+h2 span 
+{ 
+   color: white; 
+   font-family:Eraser;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 3px; 
+}
+#footer
+{
+	color:#fff;
+	position:fixed;
+	text-align:center;
+	font-size:smaller;
+	bottom:0;
+	height:5%;
+	width:100%;	
+}
+
+#fixed 
+{ 
+	height:150px; position:fixed; top:0; left:0; z-index:10000; 
+}

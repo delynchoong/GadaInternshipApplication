@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+@font-face
+{
+	font-family:"Eraser";
+	src:url(fonts/EraserRegular.ttf); /*if do this font will available on all comps, either ttf or otf format only!*/
+	font-family: "Bleeding cowboys";
+	src:url(Bleeding_Cowboys.ttf);
+}
+
+#header, #sidebar
+{
+	position:relative;
+	border-radius: 10px;
+	background-image:url(images/galaxy.jpg);
+	backgorund-size:cover;
+	
+}
+#footer
+{
+	
+}
+#header h1
+{
+	font-family:"Eraser";
+	
+}
+
+body
+{	
+	font-family:"Eraser";
+	margin:0;
+	padding:0;
+	background-image:url(images/hanging.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	/*so wallpaper does not move*/
+	background-size:cover;
+
+}	
+#header	
+{
+	margin:auto;  /*to place the div in the center of browser*/
+	width:70%;
+	text-align:center;
+	color:#fff;				/*foreground color*/
+	margin-bottom: 10%;
+	padding:10px;
+}
+
+#main
+{
+	position:absolute;
+	color:#000;
+	margin-top:20%;
+	margin-left:500px;  /*to place the div in the center of browser*/
+	width:40%;
+	padding:10px;
+	text-align:center;
+	border-radius: 10px;
+	background-color:#fff;
+	background-size:cover;
+	top:10px;
+
+}
+	
+#footer
+{
+	margin-left:20%;
+	position:fixed;
+	text-align:center;
+	font-size:smaller;
+	bottom:0;
+	width:50%;	
+}
