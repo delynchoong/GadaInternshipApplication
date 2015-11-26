@@ -1,6 +1,4 @@
-Repository contains 3 folders:
-
-Assignment: A simple Website using html5 and mySql
+Repository contains 2 folders:
 
 LassieComeHome: Side-scroller Platform Java Game
 
